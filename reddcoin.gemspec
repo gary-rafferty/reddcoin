@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["gary.rafferty@gmail.com"]
   spec.summary       = %q{Reddcoin API wrapper}
   spec.description   = %q{A ruby client for the Reddcoin API}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/gary-rafferty/reddcoin"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
