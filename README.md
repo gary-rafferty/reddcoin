@@ -50,6 +50,10 @@ client.send_to_address('gary','glen','123.45')
 # Move to user
 client.move_to_user('username_from', 'username_to', 'amount')
 client.move_to_user('gary','glen','123.45')
+
+# Get the user's balance details
+client.get_user_balance_detail('gary')
+
 ```
 
 For now, all actions return the parsed response, with the exception of `get_user_list` and `get_user_info` which return User objects.

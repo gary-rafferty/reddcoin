@@ -96,5 +96,11 @@ module Reddcoin
       
       response.parsed_response
     end
+
+    def get_user_balance_detail(username)
+      response = self.class.get('/GetUserBalanceDetail/'+@get_key+'/'+username)
+
+      response.parsed_response
+    end
   end
 end
