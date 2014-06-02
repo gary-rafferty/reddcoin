@@ -2,6 +2,8 @@
 
 A Ruby wrapper around [ReddAPI](https://reddapi.com), [Reddcoin's](https://reddcoin.com) API.
 
+Send RDD to **RuzfEqTuF8Gm32MgLgMsmLsvHWSfDogy5y** :)
+
 ## Installation
 
 Add this line to your application's Gemfile:
